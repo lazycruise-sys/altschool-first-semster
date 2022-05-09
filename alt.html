@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltSchool Practise HTML</title>
+</head>
+<body>
+    <!--Unordered Lists-->
+    <p>My Shopping List (Today)</p>
+    <ul>
+        <li>Toothbrush</li>
+        <li>Tomato</li>
+        <li>Butter</li>
+        <li>Pixel 6</li>
+        <li>Pixel Watch</li>
+    </ul>
+
+    <!--Ordered Lists-->
+    <p>Noodles Recipe</p>
+    <ol>
+        <li>Pick 3 Indomie (60g) and cut the nylon</li>
+        <li>Pour 300mL of Water into your choice pot</li>
+        <li>Place pot on Fire, and allow water to boil for 2 minutes</li>
+        <li>Put noodles into pot and allow to steam for another 5 minutes</li>
+        <li>Put seasoning and other things to your steamed noodles, and allow to boil for another 3 minutes</li>
+        <li>Place your noodles into your choice plate</li>
+    </ol>
+
+    <!--Links-->
+    <p><a href="https://altschool.com/">Visit AltSchool Website</a> to start your coding journey</p>
+    <p><a href="/media/image.jpeg" download>Dowload with original filename</a></p>
+    <p><a href="/media/frame_14.jpg" download="logo">Dowload with custom filename - name assigned by the download attribute</a></p>
+
+    <!--Multimedia-->
+    <!--Play audio in HTML-->
+    <h3>Playing Dhemi - Iwo Nikan (feat. Hayjhay Willie)</h3>
+    <audio controls src="/media/audio.mp3" autoplay></audio>
+
+    <!--Play video in HTML-->
+    <h3>Playing Stripe Job Commercial</h3>
+    <p>At Stripe, our focus is building top-class payment infrastructure that powers the internet and help everyone from consumers to partners transact more easily that typical.</p>
+    <!-- <video src="/media/no_black_full_with_audio.webm" autoplay></video> -->
+
+    <!--Embedding an Image-->
+    <h3>Electrz 0522 - The Monthly Electronic Music Playlist</h3>
+    <!-- <img src="/media/frame_14.jpg" alt="Electrz 0522 Playlist cover" /> -->
+
+    <h4>Contact the Lazy Studio</h4>
+    <form action="" method="post">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required />
+        </div>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password" required/>
+        </div>
+        <div>
+            <label for="project_type">Select the Project Type: </label>
+            <select name="project_type" id="project_type">
+                <option value="">Select Project Type</option>
+                <option value="UI">UI Design</option>
+                <option value="UX">UX Research</option>
+                <option value="Dev">App Development</option>
+                <option value="Full">Full Scale Development</option>
+            </select>
+        </div>
+        <div>
+            <label for="phone">Phone Number: </label>
+            <input type="tel" name="phone" id="phone" required />
+        </div>
+        <!-- <input type="button" value="Submit"> -->
+        <button type="submit">Let Make Magic</button>
+    </form>
+
+    <hr>
+
+    <!--Table Element-->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Olorunfemi</td>
+                <td>Akinlua</td>
+                <td>akinluaolorunfemi@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Jacob</td>
+                <td>Arigbede</td>
+                <td>jacob@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
