@@ -1,0 +1,58 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+    color: rgb(35, 184, 62);
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    color: darkorange;
+    width: 40vh;
+    /* text-align: center; */
+}
+
+b {
+    font-size: 22px;
+}
+
+.select {
+    padding: 50px;
+    background-color: rgb(80, 204, 204);
+    width: 50vw;
+}
+
+#div-id {
+    width: 40%;
+}
+
+a {
+    color: slateblue;
+}
+
+a:hover {
+    color: green;
+}
+
+.select:hover {
+    padding: 60px;
+    background-color: rgb(50, 176, 84);
+    width: 50vw;
+}
+
+img[src] {
+    width: 100%;
+    height: 100%;
+}
